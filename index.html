@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>便捷二维码 - QRKit</title>
+    <title>QRKit - 便捷二维码</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
             line-height: 1.6;
             color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #00b8a5 0%, #00a896 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 20px;
         }
-        
+
         .container {
             max-width: 600px;
             width: 100%;
@@ -32,32 +32,32 @@
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             text-align: center;
         }
-        
+
         .logo {
             width: 120px;
             height: 120px;
             margin: 0 auto 30px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #00b8a5 0%, #00a896 100%);
             border-radius: 30px;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 60px;
-            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 10px 30px rgba(0, 184, 165, 0.4);
         }
-        
+
         h1 {
             font-size: 32px;
             color: #1a1a1a;
             margin-bottom: 10px;
         }
-        
+
         .subtitle {
             font-size: 18px;
             color: #666;
             margin-bottom: 40px;
         }
-        
+
         .description {
             font-size: 16px;
             color: #555;
@@ -65,7 +65,7 @@
             line-height: 1.8;
             text-align: left;
         }
-        
+
         .features {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -73,29 +73,29 @@
             margin-bottom: 40px;
             text-align: left;
         }
-        
+
         .feature {
             padding: 15px;
-            background: #f8f9fa;
+            background: #f0f9f8;
             border-radius: 10px;
             font-size: 14px;
         }
-        
+
         .feature-icon {
             font-size: 24px;
             margin-bottom: 5px;
         }
-        
+
         .links {
             display: flex;
             flex-direction: column;
             gap: 15px;
         }
-        
+
         .link-button {
             display: block;
             padding: 15px 30px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #00b8a5 0%, #00a896 100%);
             color: white;
             text-decoration: none;
             border-radius: 10px;
@@ -103,22 +103,22 @@
             font-weight: 500;
             transition: transform 0.2s, box-shadow 0.2s;
         }
-        
+
         .link-button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+            box-shadow: 0 10px 20px rgba(0, 184, 165, 0.3);
         }
-        
+
         .link-button.secondary {
             background: white;
-            color: #667eea;
-            border: 2px solid #667eea;
+            color: #00b8a5;
+            border: 2px solid #00b8a5;
         }
-        
+
         .link-button.secondary:hover {
-            background: #f8f9fa;
+            background: #f0f9f8;
         }
-        
+
         .footer {
             margin-top: 40px;
             padding-top: 30px;
@@ -126,25 +126,25 @@
             color: #999;
             font-size: 14px;
         }
-        
+
         .footer a {
-            color: #667eea;
+            color: #00b8a5;
             text-decoration: none;
         }
-        
+
         .footer a:hover {
             text-decoration: underline;
         }
-        
+
         @media (max-width: 600px) {
             .container {
                 padding: 40px 30px;
             }
-            
+
             h1 {
                 font-size: 28px;
             }
-            
+
             .features {
                 grid-template-columns: 1fr;
             }
@@ -154,14 +154,14 @@
 <body>
     <div class="container">
         <div class="logo">📱</div>
-        
-        <h1>便捷二维码</h1>
-        <p class="subtitle">QRKit - 简单、快速、安全的二维码工具</p>
-        
+
+        <h1>QRKit</h1>
+        <p class="subtitle">便捷二维码 - 简单、快速、安全的二维码工具</p>
+
         <div class="description">
-            <p>便捷二维码是一款专为 HarmonyOS 打造的二维码扫描与生成工具，功能强大，操作简单，完全免费。</p>
+            <p>QRKit 是一款简洁高效的二维码扫描与生成工具，功能强大，操作简单，完全免费，所有数据仅存储在本地。</p>
         </div>
-        
+
         <div class="features">
             <div class="feature">
                 <div class="feature-icon">📷</div>
@@ -184,18 +184,18 @@
                 数据本地存储，不上传服务器
             </div>
         </div>
-        
+
         <div class="links">
             <a href="privacy-policy.html" class="link-button">📄 隐私政策</a>
             <a href="terms-of-service.html" class="link-button secondary">📋 用户协议</a>
         </div>
-        
+
         <div class="footer">
             <p><strong>特点：</strong>完全免费 · 无广告 · 无需注册 · 安全可靠</p>
             <p style="margin-top: 10px;">
                 <a href="mailto:kemp.xu@foxmail.com">联系我们</a>
             </p>
-            <p style="margin-top: 20px;">© 2025 便捷二维码 QRKit. All rights reserved.</p>
+            <p style="margin-top: 20px;">© 2026 QRKit. All rights reserved.</p>
         </div>
     </div>
 </body>
