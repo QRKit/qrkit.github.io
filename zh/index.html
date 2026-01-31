@@ -15,7 +15,7 @@
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
             line-height: 1.6;
             color: #333;
-            background: linear-gradient(135deg, #00b8a5 0%, #00a896 100%);
+            background: linear-gradient(135deg, #07C160 0%, #06AD56 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -37,13 +37,17 @@
             width: 120px;
             height: 120px;
             margin: 0 auto 30px;
-            background: linear-gradient(135deg, #00b8a5 0%, #00a896 100%);
             border-radius: 30px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 60px;
-            box-shadow: 0 10px 30px rgba(0, 184, 165, 0.4);
+            box-shadow: 0 10px 30px rgba(7, 193, 96, 0.4);
+            overflow: hidden;
+        }
+
+        .logo svg {
+            width: 100%;
+            height: 100%;
         }
 
         h1 {
@@ -76,7 +80,7 @@
 
         .feature {
             padding: 15px;
-            background: #f0f9f8;
+            background: #e8f8ef;
             border-radius: 10px;
             font-size: 14px;
         }
@@ -95,7 +99,7 @@
         .link-button {
             display: block;
             padding: 15px 30px;
-            background: linear-gradient(135deg, #00b8a5 0%, #00a896 100%);
+            background: linear-gradient(135deg, #07C160 0%, #06AD56 100%);
             color: white;
             text-decoration: none;
             border-radius: 10px;
@@ -106,17 +110,17 @@
 
         .link-button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(0, 184, 165, 0.3);
+            box-shadow: 0 10px 20px rgba(7, 193, 96, 0.3);
         }
 
         .link-button.secondary {
             background: white;
-            color: #00b8a5;
-            border: 2px solid #00b8a5;
+            color: #07C160;
+            border: 2px solid #07C160;
         }
 
         .link-button.secondary:hover {
-            background: #f0f9f8;
+            background: #e8f8ef;
         }
 
         .footer {
@@ -128,7 +132,7 @@
         }
 
         .footer a {
-            color: #00b8a5;
+            color: #07C160;
             text-decoration: none;
         }
 
@@ -158,9 +162,9 @@
         }
 
         .lang-switch a.active {
-            background: #00b8a5;
+            background: #07C160;
             color: white;
-            border-color: #00b8a5;
+            border-color: #07C160;
         }
 
         @media (max-width: 600px) {
@@ -187,7 +191,14 @@
             </div>
         </div>
 
-        <div class="logo">📱</div>
+        <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+                <rect width="1024" height="1024" fill="#07C160"/>
+                <g transform="translate(112, 112) scale(0.78)">
+                    <path d="M384 64H134.4c-51.2 0-89.6 41.6-89.6 89.6v227.2c0 51.2 41.6 89.6 89.6 89.6H384c51.2 0 89.6-41.6 89.6-89.6V153.6c0-48-38.4-89.6-89.6-89.6z m44.8 316.8c0 25.6-19.2 44.8-44.8 44.8H134.4c-25.6 0-44.8-19.2-44.8-44.8V153.6c0-25.6 19.2-44.8 44.8-44.8H384c25.6 0 44.8 19.2 44.8 44.8v227.2zM192 192h134.4v134.4H192V192z m185.6 352h-243.2c-48 0-86.4 38.4-86.4 89.6v220.8c0 48 38.4 89.6 86.4 89.6h243.2c48 0 86.4-38.4 86.4-89.6V633.6c3.2-51.2-38.4-89.6-86.4-89.6z m44.8 307.2c0 25.6-19.2 44.8-44.8 44.8h-243.2c-25.6 0-44.8-19.2-44.8-44.8v-220.8c0-25.6 19.2-44.8 44.8-44.8h243.2c25.6 0 44.8 19.2 44.8 44.8v220.8z m-230.4-182.4h131.2v131.2H192v-131.2z m441.6-198.4h249.6c51.2 0 89.6-41.6 89.6-89.6V153.6c0-51.2-41.6-89.6-89.6-89.6h-249.6c-51.2 0-89.6 41.6-89.6 89.6v227.2c0 51.2 41.6 89.6 89.6 89.6zM588.8 153.6c0-25.6 19.2-44.8 44.8-44.8h249.6c25.6 0 44.8 19.2 44.8 44.8v227.2c0 25.6-19.2 44.8-44.8 44.8h-249.6c-25.6 0-44.8-19.2-44.8-44.8V153.6z m112 38.4h134.4v134.4h-134.4V192z m-128 524.8h137.6c12.8 0 22.4-9.6 22.4-22.4V556.8c0-12.8-9.6-22.4-22.4-22.4h-137.6c-12.8 0-22.4 9.6-22.4 22.4v137.6c0 12.8 9.6 22.4 22.4 22.4z m313.6-153.6v38.4c0 12.8 12.8 25.6 25.6 25.6h38.4c12.8 0 25.6-12.8 25.6-25.6V563.2c0-12.8-12.8-25.6-25.6-25.6h-38.4c-12.8 0-25.6 9.6-25.6 25.6z m-304 380.8h48c12.8 0 22.4-9.6 22.4-22.4v-48c0-12.8-9.6-22.4-22.4-22.4h-48c-12.8 0-22.4 9.6-22.4 22.4V921.6c0 12.8 9.6 22.4 22.4 22.4z m361.6-240H844.8a28.68224 28.68224 0 0 0-28.8 28.8v44.8H768c-19.2 0-32 12.8-32 32V908.8c0 16 12.8 28.8 28.8 28.8l179.2 3.2c16 0 28.8-12.8 28.8-28.8v-179.2c0-16-12.8-28.8-28.8-28.8z" fill="#ffffff"/>
+                </g>
+            </svg>
+        </div>
 
         <h1>QRKit X</h1>
         <p class="subtitle">便捷二维码 - 简单、快速、安全的二维码工具</p>
